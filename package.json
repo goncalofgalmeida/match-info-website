@@ -1,0 +1,26 @@
+{
+  "name": "match-info-website",
+  "version": "1.0.0",
+  "description": "Simple web app that displays info about a weekly football match I play with my friends, making it easy for everybody to know who's going and at what time the match is.",
+  "homepage": "https://github.com/goncalofgalmeida/match-info-website#readme",
+  "bugs": {
+    "url": "https://github.com/goncalofgalmeida/match-info-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goncalofgalmeida/match-info-website.git"
+  },
+  "license": "ISC",
+  "author": "goncalofgalmeida",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.1"
+  }
+}
